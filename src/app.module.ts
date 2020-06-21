@@ -2,10 +2,13 @@ import { Module } from '@nestjs/common';
 import { LocationController } from './location/location.controller';
 // import { AppService } from './app.service';
 import { LocationModule } from './location/location.module';
+import { LocationService } from './location/location.service';
+import { ConfigModule } from './config/config.module';
+import { DatabaseModule } from './database/database.module';
 
 @Module({
-  imports: [LocationModule],
+  imports: [LocationModule, ConfigModule, DatabaseModule],
   controllers: [LocationController],
-  // providers: [AppService],
+  providers: [LocationService],
 })
 export class AppModule {}

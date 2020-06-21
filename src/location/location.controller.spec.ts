@@ -1,25 +1,29 @@
 import { Test, TestingModule } from '@nestjs/testing';
 import { LocationController } from './location.controller';
-// import { AppService } from '../app.service';
+// import { AppService } from './app.service';
 
 describe('LocationController', () => {
   let locationController: LocationController;
 
   beforeEach(async () => {
     const app: TestingModule = await Test.createTestingModule({
-      controllers: [LocationController],
+      controllers: [LocationController]
+      // providers: [AppService],
     }).compile();
 
     locationController = app.get<LocationController>(LocationController);
   });
-
+  // locationController = new LocationController();
   describe('root', () => {
-    it('should return "Hello World!"', () => {
+    it('should return locations', () => {
       expect(locationController.listLocations()).toMatchObject({
-        locations: [
-          'Location 1', 'Location 2', 'Location 3'
-        ],
-      });
+        locations: 
+        [
+          'Location 1', 
+          'Location 2', 
+          'Location 3'
+        ]},
+      );
     });
   });
 });
