@@ -1,12 +1,12 @@
 import { resolve, join } from 'path';
 
-const SOURCE_PATH = resolve(__dirname, '..', 'src');
+const SOURCE_PATH = resolve(__dirname, '/..', 'src');
 export default {
     database: {
-        url: 'postgress://app:password@localhost/locations'
+        url: 'postgres://app:password@localhost/locations'
     },
     orm: {
-        entities: [`${SOURCE_PATH}/**/*.entity.ts`],
+        entities: [`${SOURCE_PATH}/**/*.entity{.ts,.js}`],
         synchronize: false
     },
     templates: {

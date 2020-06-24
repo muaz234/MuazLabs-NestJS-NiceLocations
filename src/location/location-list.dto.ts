@@ -1,0 +1,3 @@
+interface LocationListDto {
+    locations: string[];
+  }
