@@ -8,8 +8,8 @@ import { DatabaseModule } from './database/database.module';
 import { CommonModule } from './common/common.module';
 
 @Module({
-  imports: [LocationModule, ConfigModule, DatabaseModule, CommonModule],
-  controllers: [LocationController],
-  providers: [LocationService],
+  imports: [LocationModule, ConfigModule, DatabaseModule, CommonModule]
+  // controllers: [LocationController],
+  // providers: [LocationService],
 })
 export class AppModule {}

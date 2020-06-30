@@ -1,3 +1,5 @@
-interface LocationListDto {
-    locations: string[];
+import { LocationDto } from "./location.dto";
+
+export interface LocationListDto {
+    locations: LocationDto[];
   }

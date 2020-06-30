@@ -41,7 +41,7 @@
     "@types/config": "0.0.36",
     "@types/express": "^4.17.1",
     "@types/jest": "^24.0.18",
-    "@types/node": "^12.7.5",
+    "@types/node": "^12.12.47",
     "@types/supertest": "^2.0.8",
     "jest": "^24.9.0",
     "jest-hbs-extension": "^0.2.3",

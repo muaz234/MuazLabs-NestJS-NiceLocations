@@ -8,7 +8,7 @@ import { Repository } from 'typeorm';
 export class LocationService {
     constructor(
         @InjectRepository(Location)
-        private readonly locationRepository: Repository<Location>){}
+        private readonly locationRepository: Repository<Location>,){  }
     public async list(): Promise<Location[]>{
         return this.locationRepository.find();
     }

@@ -1,12 +1,17 @@
 import { resolve, join } from 'path';
-
-const SOURCE_PATH = resolve(__dirname, '/..', 'src');
+import * as path from 'path';
+// ${SOURCE_PATH}/**
+const SOURCE_PATH = resolve(__dirname, '../', 'src');
+console.log(resolve(__dirname, '/../'));
+// console.log(join(__dirname, '../src/' ,"location/location.entity.ts"));
 export default {
     database: {
         url: 'postgres://app:password@localhost/locations'
     },
     orm: {
-        entities: [`${SOURCE_PATH}/**/*.entity{.ts,.js}`],
+        entities: [
+            __dirname + '/../**/*.entity{.ts,.js}'
+        ],
         synchronize: false
     },
     templates: {
