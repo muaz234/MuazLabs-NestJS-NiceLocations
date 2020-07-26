@@ -17,10 +17,10 @@ describe('LocationController', () => {
   describe('root', () => {
     it('should return locations', () => {
       expect(locationController.listLocations()).toMatchObject({
-        locations: 
+        locations:
         [
-          'Location 1', 
-          'Location 2', 
+          'Location 1',
+          'Location 2',
           'Location 3'
         ]},
       );
