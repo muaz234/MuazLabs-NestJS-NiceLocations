@@ -2,8 +2,6 @@ import { resolve, join } from 'path';
 import * as path from 'path';
 // ${SOURCE_PATH}/**
 const SOURCE_PATH = resolve(__dirname, '../', 'src');
-console.log(resolve(__dirname, '/../'));
-// console.log(join(__dirname, '../src/' ,"location/location.entity.ts"));
 export default {
     database: {
         url: 'postgres://app:password@localhost/locations'
