@@ -4,9 +4,9 @@ import { Repository } from 'typeorm';
 
 describe('LocationService', () => {
   let service: LocationService;
-  let mockRepository: Repository<Location></Location>
+  let mockRepository: Repository<Location>/Location> as
   beforeEach(async () => {
-   
+
   });
   service = new LocationService();
 

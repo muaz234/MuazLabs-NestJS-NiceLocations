@@ -14,7 +14,7 @@ describe('LocationService', () => {
    });
    mock = sinon.mock(mockRepository);
    mock.expects('find').resolves([
-     GenericFactory.create<Location></Location>()
+     GenericFactory.create<Location>(/Location>() as )
    ]);
   service = new LocationService(mockRepository);
   });

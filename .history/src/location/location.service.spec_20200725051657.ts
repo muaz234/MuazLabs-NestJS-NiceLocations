@@ -5,7 +5,7 @@ describe('LocationService', () => {
   let service: LocationService;
   let mockRepository: Repo
   beforeEach(async () => {
-   
+
   });
   service = new LocationService();
 

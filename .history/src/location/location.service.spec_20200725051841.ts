@@ -1,7 +1,7 @@
 import { Test, TestingModule } from '@nestjs/testing';
 import { LocationService } from './location.service';
 import { Repository } from 'typeorm';
-import 
+import
 describe('LocationService', () => {
   let service: LocationService;
   let mockRepository: Repository<Location>;

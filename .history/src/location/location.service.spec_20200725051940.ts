@@ -5,7 +5,7 @@ import * as sinon from 'sinon';
 describe('LocationService', () => {
   let service: LocationService;
   let mockRepository: Repository<Location>;
-  let mock = sinon.SinonMock;
+  const mock = sinon.SinonMock;
   beforeEach(async () => {
    mockRepository = { } as Repository<Location>;
    mockRepository = Object.assign(mockRepository, {

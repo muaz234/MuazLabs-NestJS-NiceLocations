@@ -1,4 +1,4 @@
-import { Action } from "rxjs/internal/scheduler/Action";
+import { Action } from 'rxjs/internal/scheduler/Action';
 
 export class MockHelper {
 

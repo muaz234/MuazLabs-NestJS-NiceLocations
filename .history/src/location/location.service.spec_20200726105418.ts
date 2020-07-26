@@ -16,7 +16,7 @@ describe('LocationService', () => {
    mock.expects('find').resolves([
      GenericFactory.create<Location>(Location, {
        id: '',
-       name: 
+       name:
      })
    ]);
   service = new LocationService(mockRepository);
