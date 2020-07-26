@@ -1,6 +1,6 @@
 import addJestHbsExtension from 'jest-hbs-extension';
 import { resolve } from 'path';
-import { ConfigService } from 'src/config/config.service';
+import { ConfigService } from './src/config/config.service';
 
 
 // const VIEWS_PATH = resolve(__dirname, '..', 'views');
