@@ -1,3 +1,3 @@
 export class MockHelper {
-    public static mock<t>/t> as 
+    public static mock<t>/t> as
 }
