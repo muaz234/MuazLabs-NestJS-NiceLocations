@@ -1,4 +1,4 @@
-import { Action } from "rxjs/internal/scheduler/Action";
+import { Action } from 'rxjs/internal/scheduler/Action';
 
 interface Resolves {
     resolves: any;
@@ -9,7 +9,7 @@ interface Returns {
 
 export class MockHelper {
 
-    
+
     public static mock<T>(mocks: { [key: string]: Action)
     {
         const bluff = MockHelper.bluff<T>();

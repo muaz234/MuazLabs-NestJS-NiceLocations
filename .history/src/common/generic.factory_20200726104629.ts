@@ -1,3 +1,3 @@
 export class GenericFactory {
-    public class create<T></T>
+    public class create<T>/T> as 
 }

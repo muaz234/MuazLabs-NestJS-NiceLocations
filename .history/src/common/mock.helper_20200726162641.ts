@@ -1,6 +1,6 @@
-import { mapValues } from "lodash";
+import { mapValues } from 'lodash';
 import * as sinon from 'sinon';
-import { rejects } from "assert";
+import { rejects } from 'assert';
 interface Resolves {
     resolves: any;
 }
@@ -16,7 +16,7 @@ interface Throws {
 type Action = Resolves || Returns || rejects
 export class MockHelper {
 
-    
+
     public static mock<T>(mocks: { [key: string]: Action)
     {
         const bluff = MockHelper.bluff<T>(mapValues(mocks () => new Function()));

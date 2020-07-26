@@ -10,25 +10,25 @@ describe('LocationService', () => {
   let mockRepository: Repository<Location>;
   let mock : sinon.SinonMock;
   beforeEach(async () => {
-  
+
     mockRepository = MockHelper.mock<Repository<Location>>({
       find: {
         resolves: [
-          GenericFactory.create<Location>(Location, 
+          GenericFactory.create<Location>(Location,
             {
              id: '7aec6a62-2036-4926-8ca9-fa31a74816dc',
              name: 'Location 1'
            }),
-           GenericFactory.create<Location>(Location, 
+           GenericFactory.create<Location>(Location,
             {
              id: '0497551b-9cd6-4a49-b609-aa31e11e19bc',
              name: 'Location 2'
            })
          ]
         ]
-      
+
     }];
-  
+
   service = new LocationService(mockRepository);
   });
   it('should return locations', () => {

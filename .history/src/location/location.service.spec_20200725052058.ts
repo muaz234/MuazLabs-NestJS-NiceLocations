@@ -14,7 +14,7 @@ describe('LocationService', () => {
    mock = sinon.mock(mockRepository);
    mock.expects('find').resolves([]);
   });
-  
+
   service = new LocationService();
 
   it('should return locations', () => {

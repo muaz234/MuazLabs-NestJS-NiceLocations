@@ -10,11 +10,11 @@ describe('LocationService', () => {
   let mockRepository: Repository<Location>;
   let mock : sinon.SinonMock;
   beforeEach(async () => {
-  
+
     mockRepository = MockHelper.mock<Repository<Location>>[{
       find: {
         resolves: [
-          
+
         ]
       }
     }]

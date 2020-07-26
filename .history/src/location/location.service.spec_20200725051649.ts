@@ -3,9 +3,9 @@ import { LocationService } from './location.service';
 
 describe('LocationService', () => {
   let service: LocationService;
-  
+
   beforeEach(async () => {
-   
+
   });
   service = new LocationService();
 
