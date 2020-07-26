@@ -19,7 +19,7 @@
 <a href="https://opencollective.com/nest#backer"><img src="https://opencollective.com/nest/backers/badge.svg" alt="Backers on Open Collective" /></a>
 <a href="https://opencollective.com/nest#sponsor"><img src="https://opencollective.com/nest/sponsors/badge.svg" alt="Sponsors on Open Collective" /></a>
 <a href="https://paypal.me/kamilmysliwiec"><img src="https://img.shields.io/badge/Donate-PayPal-dc3d53.svg"/></a>
-<a href="https://www.codefactor.io/repository/github/muaz234/muazlabs-nestjs-nicelocations"><img src="https://www.codefactor.io/repository/github/muaz234/muazlabs-nestjs-nicelocations/badge)"></a>
+<a href="https://www.codefactor.io/repository/github/muaz234/muazlabs-nestjs-nicelocations"><img src="https://www.codefactor.io/repository/github/muaz234/muazlabs-nestjs-nicelocations/badge" alt="CodeFactor" /></a>
 <a href="https://twitter.com/nestframework"><img src="https://img.shields.io/twitter/follow/nestframework.svg?style=social&label=Follow"></a>
 </p>
 
