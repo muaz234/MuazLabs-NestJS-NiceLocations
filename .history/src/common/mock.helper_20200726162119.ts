@@ -6,7 +6,7 @@ export class MockHelper {
 
     public static bluff<T>(plain: unknowm)
     {
-        return plain as 
+        return plain as
     }
 
 }

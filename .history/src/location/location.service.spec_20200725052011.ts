@@ -11,7 +11,7 @@ describe('LocationService', () => {
    mockRepository = Object.assign(mockRepository, {
       find: new Function()
    })
-   
+
   });
   service = new LocationService();
 

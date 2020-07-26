@@ -1,5 +1,5 @@
-import { Action } from "rxjs/internal/scheduler/Action";
-import { mapValues } from "lodash";
+import { Action } from 'rxjs/internal/scheduler/Action';
+import { mapValues } from 'lodash';
 
 interface Resolves {
     resolves: any;
@@ -15,7 +15,7 @@ interface Throws {
 }
 export class MockHelper {
 
-    
+
     public static mock<T>(mocks: { [key: string]: Action)
     {
         const bluff = MockHelper.bluff<T>(mapValues(mocks () => ));

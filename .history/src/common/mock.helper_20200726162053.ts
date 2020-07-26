@@ -4,6 +4,6 @@ export class MockHelper {
 
     }
 
-    public static bluff<T></T>
+    public static bluff<T>/T> as 
 
 }

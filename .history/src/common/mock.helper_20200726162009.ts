@@ -1,3 +1,3 @@
 export class MockHelper {
-    public static 
+    public static
 }

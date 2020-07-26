@@ -20,7 +20,7 @@ describe('LocationService', () => {
 
   it('should return locations', () => {
     expect(service.list()).resolves.toMatchObject([
-      
+
     ]);
   });
 });

@@ -1,7 +1,7 @@
 export class MockHelper {
     public static mock<T>()
     {
-        const bluff = MockHelper.bluff<T></T>
+        const bluff = MockHelper.bluff<T>(/T> as )
     }
 
     public static bluff<T>(plain: unknowm)

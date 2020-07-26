@@ -9,7 +9,7 @@ describe('LocationService', () => {
   beforeEach(async () => {
    mockRepository = { } as Repository<Location>;
    mockRepository = Object.assign(mockRepository, {
-     
+
    })
   });
   service = new LocationService();
