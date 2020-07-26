@@ -1,4 +1,3 @@
-import { Location } from './location.entity';
 import { LocationMappingService } from './location-mapping.service';
 import { GenericFactory } from './../common/generic.factory';
 import { MappingRegistryService } from './../common/mapping-registry.service';
@@ -16,7 +15,7 @@ describe('LocationController', () => {
    mockLocationService = MockHelper.mock<LocationService>({
      list: {
        resolves: [
-        GenericFactory.create<Location>(Location, 
+        GenericFactory.create<Location>(Lo, 
           {
            id: '7aec6a62-2036-4926-8ca9-fa31a74816dc',
            name: 'Location 1'

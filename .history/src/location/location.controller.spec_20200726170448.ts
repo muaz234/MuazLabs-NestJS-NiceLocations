@@ -1,4 +1,3 @@
-import { Location } from './location.entity';
 import { LocationMappingService } from './location-mapping.service';
 import { GenericFactory } from './../common/generic.factory';
 import { MappingRegistryService } from './../common/mapping-registry.service';
@@ -47,7 +46,8 @@ describe('LocationController', () => {
             name: 'Location 2'
           }
         ]
-      });
+      }
+      );
     });
   });
 });

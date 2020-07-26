@@ -1,4 +1,3 @@
-import { Location } from './location.entity';
 import { LocationMappingService } from './location-mapping.service';
 import { GenericFactory } from './../common/generic.factory';
 import { MappingRegistryService } from './../common/mapping-registry.service';
@@ -36,7 +35,7 @@ describe('LocationController', () => {
   // locationController = new LocationController();
   describe('root', () => {
     it('should return an array with locations', () => {
-      expect(locationController.listLocations()).resolves.toMatchObject({
+      expect(locationController.).resolves.toMatchObject({
         locations: [
           {
             id: '7aec6a62-2036-4926-8ca9-fa31a74816dc',

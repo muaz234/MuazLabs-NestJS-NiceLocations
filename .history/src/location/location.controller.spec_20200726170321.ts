@@ -1,4 +1,3 @@
-import { Location } from './location.entity';
 import { LocationMappingService } from './location-mapping.service';
 import { GenericFactory } from './../common/generic.factory';
 import { MappingRegistryService } from './../common/mapping-registry.service';
@@ -37,7 +36,8 @@ describe('LocationController', () => {
   describe('root', () => {
     it('should return an array with locations', () => {
       expect(locationController.listLocations()).resolves.toMatchObject({
-        locations: [
+        locations: 
+        [
           {
             id: '7aec6a62-2036-4926-8ca9-fa31a74816dc',
             name: 'Location 1'
@@ -46,8 +46,8 @@ describe('LocationController', () => {
             id: '0497551b-9cd6-4a49-b609-aa31e11e19bc',
             name: 'Location 2'
           }
-        ]
-      });
+        ]},
+      );
     });
   });
 });
