@@ -13,7 +13,7 @@ describe('LocationController', () => {
    mockLocationService = MockHelper.mock<LocationService>({
      list: {
        resolves: {
-         
+
        }
      }
    })
@@ -22,9 +22,9 @@ describe('LocationController', () => {
   describe('root', () => {
     it('should return locations', () => {
       expect(locationController.listLocations()).toMatchObject({
-        locations: 
+        locations:
         [
-          
+
         ]},
       );
     });

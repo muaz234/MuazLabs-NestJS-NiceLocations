@@ -11,16 +11,16 @@ describe('LocationController', () => {
   let mappingRegistryService: MappingRegistryService;
   beforeEach(async () => {
    mockLocationService = MockHelper.mock<LocationService>({
-     
+
    })
   });
   // locationController = new LocationController();
   describe('root', () => {
     it('should return locations', () => {
       expect(locationController.listLocations()).toMatchObject({
-        locations: 
+        locations:
         [
-          
+
         ]},
       );
     });

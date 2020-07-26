@@ -12,7 +12,7 @@ describe('LocationController', () => {
   beforeEach(async () => {
    mockLocationService = MockHelper.mock<LocationService>({
      list: {
-       
+
      }
    })
   });
@@ -20,9 +20,9 @@ describe('LocationController', () => {
   describe('root', () => {
     it('should return locations', () => {
       expect(locationController.listLocations()).toMatchObject({
-        locations: 
+        locations:
         [
-          
+
         ]},
       );
     });
