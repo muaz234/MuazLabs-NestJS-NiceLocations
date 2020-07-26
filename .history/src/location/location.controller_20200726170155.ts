@@ -13,7 +13,7 @@ constructor(private readonly locationService: LocationService, private readonly 
   @Get()
   @Render('list.hbs')
   public async listLocations(): Promise<LocationListDto> {
-    const locations = await this.locationService.list(); 
+    const locations = await this.locationService.list();
     const dtos = locations.map(location => this.mappingRegistryService.map<LocationDto>(Location.name, LocationDto.name, location));
     return { locations : dtos };
   }

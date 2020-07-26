@@ -4,17 +4,17 @@ import { LocationController } from './location.controller';
 
 describe('LocationController', () => {
   let locationController: LocationController;
-  let 
+  let
   beforeEach(async () => {
-   
+
   });
   // locationController = new LocationController();
   describe('root', () => {
     it('should return locations', () => {
       expect(locationController.listLocations()).toMatchObject({
-        locations: 
+        locations:
         [
-          
+
         ]},
       );
     });
